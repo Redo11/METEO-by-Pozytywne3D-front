@@ -5,10 +5,10 @@
 ### Instalacja
 
 Żeby wyszysko działało jak należy musicie zainstalować: 
-- Node.js -> https://nodejs.org/en/   
-do tego polecam przeczytać 
+- Node.js -> https://nodejs.org/en/    
 
 ```sh
+(przechodzicie do folderu z plikami projektu)
 $ npm install
 $ npm start
 ```
