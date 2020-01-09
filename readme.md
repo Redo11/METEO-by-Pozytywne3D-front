@@ -15,7 +15,7 @@ $ npm start
 
 ### Instalacja gita
 
-- https://git-scm.com/book/pl/v2/Pierwsze-kroki-Instalacja-Git
+- https://git-scm.com/book/pl/v2/Pierwszgite-kroki-Instalacja-Git
 
 > Jak już to zainstalujecie to macie:
 
