@@ -1,140 +1,190 @@
 {
     "station": {
-        "Ti - pozytywne": {
+        "ti": {
+            "name": "Technikum Informatyczne im. Macieja Płażyńskiego w Pucku",
             "now": {
-                "air-temperature": 1,
-                "humidity-air": 90,
-                "pressur-weather": "1022 hPa",
-                "index-iaq": 31
+                "airtemperature": 1,
+                "humidityair": 90,
+                "pressurweather": "1022 hPa",
+                "indexiaq": 31
             },
             "hourly": [
                 {
-                    "air-temperature": 1,
-                    "humidity-air": 90,
-                    "pressur-weather": "1022 hPa",
-                    "index-iaq": 31
+                    "airtemperature": 1,
+                    "humidityair": 90,
+                    "pressurweather": "1022 hPa",
+                    "indexiaq": 31
                 },
                 {
-                    "air-temperature": 1,
-                    "humidity-air": 90,
-                    "pressur-weather": "1022 hPa",
-                    "index-iaq": 31
+                    "airtemperature": 1,
+                    "humidityair": 90,
+                    "pressurweather": "1022 hPa",
+                    "indexiaq": 31
                 },
                 {
-                    "air-temperature": 1,
-                    "humidity-air": 90,
-                    "pressur-weather": "1022 hPa",
-                    "index-iaq": 31
+                    "airtemperature": 1,
+                    "humidityair": 90,
+                    "pressurweather": "1022 hPa",
+                    "indexiaq": 31
                 },
                 {
-                    "air-temperature": 1,
-                    "humidity-air": 90,
-                    "pressur-weather": "1022 hPa",
-                    "index-iaq": 31
+                    "airtemperature": 1,
+                    "humidityair": 90,
+                    "pressurweather": "1022 hPa",
+                    "indexiaq": 31
                 },
                 {
-                    "air-temperature": 1,
-                    "humidity-air": 90,
-                    "pressur-weather": "1022 hPa",
-                    "index-iaq": 31
+                    "airtemperature": 1,
+                    "humidityair": 90,
+                    "pressurweather": "1022 hPa",
+                    "indexiaq": 31
                 },
                 {
-                    "air-temperature": 1,
-                    "humidity-air": 90,
-                    "pressur-weather": "1022 hPa",
-                    "index-iaq": 31
+                    "airtemperature": 1,
+                    "humidityair": 90,
+                    "pressurweather": "1022 hPa",
+                    "indexiaq": 31
                 }
             ]
         },
-        "Hospicjum": {
+        "la": {
+            "name": "Liceum Akademickie im. Macieja Płażyńskiego w Pucku",
             "now": {
-                "air-temperature": 1,
-                "humidity-air": 90,
-                "pressur-weather": "1022 hPa",
-                "index-iaq": 31
+                "airtemperature": 1,
+                "humidityair": 90,
+                "pressurweather": "1022 hPa",
+                "indexiaq": 31
             },
             "hourly": [
                 {
-                    "air-temperature": 1,
-                    "humidity-air": 90,
-                    "pressur-weather": "1022 hPa",
-                    "index-iaq": 31
+                    "airtemperature": 1,
+                    "humidityair": 90,
+                    "pressurweather": "1022 hPa",
+                    "indexiaq": 31
                 },
                 {
-                    "air-temperature": 1,
-                    "humidity-air": 90,
-                    "pressur-weather": "1022 hPa",
-                    "index-iaq": 31
+                    "airtemperature": 1,
+                    "humidityair": 90,
+                    "pressurweather": "1022 hPa",
+                    "indexiaq": 31
                 },
                 {
-                    "air-temperature": 1,
-                    "humidity-air": 90,
-                    "pressur-weather": "1022 hPa",
-                    "index-iaq": 31
+                    "airtemperature": 1,
+                    "humidityair": 90,
+                    "pressurweather": "1022 hPa",
+                    "indexiaq": 31
                 },
                 {
-                    "air-temperature": 1,
-                    "humidity-air": 90,
-                    "pressur-weather": "1022 hPa",
-                    "index-iaq": 31
+                    "airtemperature": 1,
+                    "humidityair": 90,
+                    "pressurweather": "1022 hPa",
+                    "indexiaq": 31
                 },
                 {
-                    "air-temperature": 1,
-                    "humidity-air": 90,
-                    "pressur-weather": "1022 hPa",
-                    "index-iaq": 31
+                    "airtemperature": 1,
+                    "humidityair": 90,
+                    "pressurweather": "1022 hPa",
+                    "indexiaq": 31
                 },
                 {
-                    "air-temperature": 1,
-                    "humidity-air": 90,
-                    "pressur-weather": "1022 hPa",
-                    "index-iaq": 31
+                    "airtemperature": 1,
+                    "humidityair": 90,
+                    "pressurweather": "1022 hPa",
+                    "indexiaq": 31
                 }
             ]
         },
-        "La - pozytywne": {
+        "hosp": {
+            "name": "Hospicjum św Ojca Pio w pucku",
             "now": {
-                "air-temperature": 1,
-                "humidity-air": 90,
-                "pressur-weather": "1022 hPa",
-                "index-iaq": 31
+                "airtemperature": 1,
+                "humidityair": 90,
+                "pressurweather": "1022 hPa",
+                "indexiaq": 31
             },
             "hourly": [
                 {
-                    "air-temperature": 1,
-                    "humidity-air": 90,
-                    "pressur-weather": "1022 hPa",
-                    "index-iaq": 31
+                    "airtemperature": 1,
+                    "humidityair": 90,
+                    "pressurweather": "1022 hPa",
+                    "indexiaq": 31
                 },
                 {
-                    "air-temperature": 1,
-                    "humidity-air": 90,
-                    "pressur-weather": "1022 hPa",
-                    "index-iaq": 31
+                    "airtemperature": 1,
+                    "humidityair": 90,
+                    "pressurweather": "1022 hPa",
+                    "indexiaq": 31
                 },
                 {
-                    "air-temperature": 1,
-                    "humidity-air": 90,
-                    "pressur-weather": "1022 hPa",
-                    "index-iaq": 31
+                    "airtemperature": 1,
+                    "humidityair": 90,
+                    "pressurweather": "1022 hPa",
+                    "indexiaq": 31
                 },
                 {
-                    "air-temperature": 1,
-                    "humidity-air": 90,
-                    "pressur-weather": "1022 hPa",
-                    "index-iaq": 31
+                    "airtemperature": 1,
+                    "humidityair": 90,
+                    "pressurweather": "1022 hPa",
+                    "indexiaq": 31
                 },
                 {
-                    "air-temperature": 1,
-                    "humidity-air": 90,
-                    "pressur-weather": "1022 hPa",
-                    "index-iaq": 31
+                    "airtemperature": 1,
+                    "humidityair": 90,
+                    "pressurweather": "1022 hPa",
+                    "indexiaq": 31
                 },
                 {
-                    "air-temperature": 1,
-                    "humidity-air": 90,
-                    "pressur-weather": "1022 hPa",
-                    "index-iaq": 31
+                    "airtemperature": 1,
+                    "humidityair": 90,
+                    "pressurweather": "1022 hPa",
+                    "indexiaq": 31
+                }
+            ]
+        },
+        "avg": {
+            "name": "Średni stan pogody w pucku",
+            "now": {
+                "airtemperature": 1,
+                "humidityair": 90,
+                "pressurweather": "1022 hPa",
+                "indexiaq": 31
+            },
+            "hourly": [
+                {
+                    "airtemperature": 1,
+                    "humidityair": 90,
+                    "pressurweather": "1022 hPa",
+                    "indexiaq": 31
+                },
+                {
+                    "airtemperature": 1,
+                    "humidityair": 90,
+                    "pressurweather": "1022 hPa",
+                    "indexiaq": 31
+                },
+                {
+                    "airtemperature": 1,
+                    "humidityair": 90,
+                    "pressurweather": "1022 hPa",
+                    "indexiaq": 31
+                },
+                {
+                    "airtemperature": 1,
+                    "humidityair": 90,
+                    "pressurweather": "1022 hPa",
+                    "indexiaq": 31
+                },
+                {
+                    "airtemperature": 1,
+                    "humidityair": 90,
+                    "pressurweather": "1022 hPa",
+                    "indexiaq": 31
+                },
+                {
+                    "airtemperature": 1,
+                    "humidityair": 90,
+                    "pressurweather": "1022 hPa",
+                    "indexiaq": 31
                 }
             ]
         }
