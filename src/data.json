@@ -1,0 +1,142 @@
+{
+    "station": {
+        "Ti - pozytywne": {
+            "now": {
+                "air-temperature": 1,
+                "humidity-air": 90,
+                "pressur-weather": "1022 hPa",
+                "index-iaq": 31
+            },
+            "hourly": [
+                {
+                    "air-temperature": 1,
+                    "humidity-air": 90,
+                    "pressur-weather": "1022 hPa",
+                    "index-iaq": 31
+                },
+                {
+                    "air-temperature": 1,
+                    "humidity-air": 90,
+                    "pressur-weather": "1022 hPa",
+                    "index-iaq": 31
+                },
+                {
+                    "air-temperature": 1,
+                    "humidity-air": 90,
+                    "pressur-weather": "1022 hPa",
+                    "index-iaq": 31
+                },
+                {
+                    "air-temperature": 1,
+                    "humidity-air": 90,
+                    "pressur-weather": "1022 hPa",
+                    "index-iaq": 31
+                },
+                {
+                    "air-temperature": 1,
+                    "humidity-air": 90,
+                    "pressur-weather": "1022 hPa",
+                    "index-iaq": 31
+                },
+                {
+                    "air-temperature": 1,
+                    "humidity-air": 90,
+                    "pressur-weather": "1022 hPa",
+                    "index-iaq": 31
+                }
+            ]
+        },
+        "Hospicjum": {
+            "now": {
+                "air-temperature": 1,
+                "humidity-air": 90,
+                "pressur-weather": "1022 hPa",
+                "index-iaq": 31
+            },
+            "hourly": [
+                {
+                    "air-temperature": 1,
+                    "humidity-air": 90,
+                    "pressur-weather": "1022 hPa",
+                    "index-iaq": 31
+                },
+                {
+                    "air-temperature": 1,
+                    "humidity-air": 90,
+                    "pressur-weather": "1022 hPa",
+                    "index-iaq": 31
+                },
+                {
+                    "air-temperature": 1,
+                    "humidity-air": 90,
+                    "pressur-weather": "1022 hPa",
+                    "index-iaq": 31
+                },
+                {
+                    "air-temperature": 1,
+                    "humidity-air": 90,
+                    "pressur-weather": "1022 hPa",
+                    "index-iaq": 31
+                },
+                {
+                    "air-temperature": 1,
+                    "humidity-air": 90,
+                    "pressur-weather": "1022 hPa",
+                    "index-iaq": 31
+                },
+                {
+                    "air-temperature": 1,
+                    "humidity-air": 90,
+                    "pressur-weather": "1022 hPa",
+                    "index-iaq": 31
+                }
+            ]
+        },
+        "La - pozytywne": {
+            "now": {
+                "air-temperature": 1,
+                "humidity-air": 90,
+                "pressur-weather": "1022 hPa",
+                "index-iaq": 31
+            },
+            "hourly": [
+                {
+                    "air-temperature": 1,
+                    "humidity-air": 90,
+                    "pressur-weather": "1022 hPa",
+                    "index-iaq": 31
+                },
+                {
+                    "air-temperature": 1,
+                    "humidity-air": 90,
+                    "pressur-weather": "1022 hPa",
+                    "index-iaq": 31
+                },
+                {
+                    "air-temperature": 1,
+                    "humidity-air": 90,
+                    "pressur-weather": "1022 hPa",
+                    "index-iaq": 31
+                },
+                {
+                    "air-temperature": 1,
+                    "humidity-air": 90,
+                    "pressur-weather": "1022 hPa",
+                    "index-iaq": 31
+                },
+                {
+                    "air-temperature": 1,
+                    "humidity-air": 90,
+                    "pressur-weather": "1022 hPa",
+                    "index-iaq": 31
+                },
+                {
+                    "air-temperature": 1,
+                    "humidity-air": 90,
+                    "pressur-weather": "1022 hPa",
+                    "index-iaq": 31
+                }
+            ]
+        }
+    }
+}
