@@ -1,12 +1,13 @@
 {
     "station": {
         "ti": {
+            "number": 1,
             "name": "Technikum Informatyczne im. Macieja Płażyńskiego w Pucku",
             "now": {
-                "airtemperature": 1,
-                "humidityair": 90,
-                "pressurweather": "1022 hPa",
-                "indexiaq": 31
+                "airtemperature": -4,
+                "humidityair": 92,
+                "pressurweather": 1022,
+                "indexiaq": 21
             },
             "hourly": [
                 {
@@ -48,12 +49,13 @@
             ]
         },
         "la": {
+            "number": 2,
             "name": "Liceum Akademickie im. Macieja Płażyńskiego w Pucku",
             "now": {
-                "airtemperature": 1,
-                "humidityair": 90,
-                "pressurweather": "1022 hPa",
-                "indexiaq": 31
+                "airtemperature": 34,
+                "humidityair": 10,
+                "pressurweather": 982,
+                "indexiaq": 21
             },
             "hourly": [
                 {
@@ -95,12 +97,13 @@
             ]
         },
         "hosp": {
+            "number": 3,
             "name": "Hospicjum św Ojca Pio w pucku",
             "now": {
-                "airtemperature": 1,
-                "humidityair": 90,
-                "pressurweather": "1022 hPa",
-                "indexiaq": 31
+                "airtemperature": -31,
+                "humidityair": 50,
+                "pressurweather": 1222,
+                "indexiaq": 41
             },
             "hourly": [
                 {
@@ -142,11 +145,13 @@
             ]
         },
         "avg": {
+            "number": null,
             "name": "Średni stan pogody w pucku",
             "now": {
+                "a": 1,
                 "airtemperature": 1,
                 "humidityair": 90,
-                "pressurweather": "1022 hPa",
+                "pressurweather": 1022,
                 "indexiaq": 31
             },
             "hourly": [

@@ -34,10 +34,10 @@ class PropperApp extends Component {
             <section className="app">
                 <div className="app__form">
                     <select className="app__form__select" defaultValue='chuj' onChange={this.hChange}>
-                        <option value="avg">Wybierz punkt</option>
-                        <option value="ti">Technikum</option>
-                        <option value="la">Liceum</option>
-                        <option value="hosp">Hospicujm</option>
+                        <option value="avg">Wybierz stacje meteorologiczną...</option>
+                        <option value="ti">Technikum informatyczne</option>
+                        <option value="la">Liceum akademickie</option>
+                        <option value="hosp">Hospicujm w pucku</option>
                     </select>
                 </div>
                 <WeatherInfo selcStation={selectedStation} />

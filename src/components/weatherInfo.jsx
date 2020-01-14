@@ -12,7 +12,7 @@ class WeatherInfo extends Component{
         const { endPoint } = this.state
         let { selcStation } = this.props
 
-        let endHook = 'null'
+        let endHook
         switch (selcStation) {
             case 'avg':
                 endHook = data.station.avg
@@ -36,16 +36,32 @@ class WeatherInfo extends Component{
     }
     render() {
         const { endPoint } = this.state
+
+        const ifNotAvg = (numb) => (
+            numb == null ? 'Puck' : `Stacja nr. ${numb}`
+        )
             return (
                 <div className="app__weatherInfo">
                     <header className="weatherInfo__header">
-                        <h2 className="weatherInfo__header--text">Stacja</h2>
-                        <p className="weatherInfo__header--title">{endPoint.name}</p>
+                        <h2 className="weatherInfo__header--text">{ ifNotAvg(endPoint.number) }</h2>
+                        <p className="weatherInfo__header--title">{ endPoint.name }</p>
                     </header>
                     <div className="weatherInfo__table">
                         <div className="weatherInfo__table__element">
                             <h4 className="weatherInfo__table__element--title">Temperatura powietrza</h4>
-                            <p className="weatherInfo__table__element--info">9.6 °C</p>
+                            <p className="weatherInfo__table__element--info">{  } 12°C</p>
+                        </div>
+                        <div className="weatherInfo__table__element">
+                            <h4 className="weatherInfo__table__element--title">Wilgotność powietrza</h4>
+                            <p className="weatherInfo__table__element--info">{  }82%</p>
+                        </div>
+                        <div className="weatherInfo__table__element">
+                            <h4 className="weatherInfo__table__element--title">Ciśnienie atmosferyczne</h4>
+                            <p className="weatherInfo__table__element--info">{  } 1024 hpa</p>
+                        </div>
+                        <div className="weatherInfo__table__element">
+                            <h4 className="weatherInfo__table__element--title">Index IAQ*</h4>
+                            <p className="weatherInfo__table__element--info "><span className="iaq_index">{}28 - Dobry</span></p>
                         </div>
                     </div>
                 </div>
