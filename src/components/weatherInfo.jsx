@@ -12,39 +12,44 @@ class WeatherInfo extends Component{
         const { endPoint } = this.state
         let { selcStation } = this.props
 
-        let name = 'null'
+        let endHook = 'null'
         switch (selcStation) {
             case 'avg':
-                console.log(data.station.avg);
-                name = data.station.avg
+                endHook = data.station.avg
                 break;
             case 'ti':
-                console.log(data.station.ti);
-                name = data.station.ti
+                endHook = data.station.ti
                 break;
             case 'la':
-                console.log(data.station.la);
-                name = data.station.la
+                endHook = data.station.la
                 break;
             case 'hosp':
-                console.log(data.station.hosp);
-                name = data.station.hosp
+                endHook = data.station.hosp
                 break;
             default:
+                endHook = 'Brak informacji o wybranej stacji...'
         }
-        if (endPoint !== name) {
-            this.setState({ endPoint: name });
+        if (endPoint !== endHook) {
+            this.setState({ endPoint: endHook });
         }
         console.log(this.state.endPoint)
     }
     render() {
         const { endPoint } = this.state
-        return (
-            <div>
-                <h1>Stacja</h1>
-                <p>{endPoint.name}</p>
-            </div>
-        );
+            return (
+                <div className="app__weatherInfo">
+                    <header className="weatherInfo__header">
+                        <h2 className="weatherInfo__header--text">Stacja</h2>
+                        <p className="weatherInfo__header--title">{endPoint.name}</p>
+                    </header>
+                    <div className="weatherInfo__table">
+                        <div className="weatherInfo__table__element">
+                            <h4 className="weatherInfo__table__element--title">Temperatura powietrza</h4>
+                            <p className="weatherInfo__table__element--info">9.6 °C</p>
+                        </div>
+                    </div>
+                </div>
+            );
     }
 }
 WeatherInfo.defaultProps = {
