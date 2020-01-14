@@ -1,5 +1,8 @@
 import React, { Component } from "react";
-import data from '../data';
+//import data from '../data';
+import Chart from './chart'
+
+import { data, hourData} from './data'
 
 class WeatherInfo extends Component{
     constructor(){
@@ -40,6 +43,9 @@ class WeatherInfo extends Component{
         const ifNotAvg = (numb) => (
             numb == null ? 'Puck' : `Stacja nr. ${numb}`
         )
+        const hour = ['0:00', '1:00', '2:00', '3:00', '4:00', '5:00', '6:00', '7:00', '8:00', '9:00', '10:00', '11:00', '12:00']
+        console.log(hourData.length)
+        
             return (
                 <div className="app__weatherInfo">
                     <header className="weatherInfo__header">
@@ -63,6 +69,10 @@ class WeatherInfo extends Component{
                             <h4 className="weatherInfo__table__element--title">Index IAQ*</h4>
                             <p className="weatherInfo__table__element--info "><span className="iaq_index">{}28 - Dobry</span></p>
                         </div>
+                    </div>
+                    <div className="weatherInfo__charts">
+                        <Chart hr={hour}  />
+                        
                     </div>
                 </div>
             );

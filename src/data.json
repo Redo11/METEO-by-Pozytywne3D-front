@@ -155,7 +155,7 @@
                 "indexiaq": 31
             },
             "hourly": [
-                {
+                 {
                     "airtemperature": 1,
                     "humidityair": 90,
                     "pressurweather": "1022 hPa",
