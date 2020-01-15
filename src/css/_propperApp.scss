@@ -28,8 +28,8 @@
                     &__table{
                         width: 70%;
                         margin: 0 auto;
-                        display: grid;
                         height: 150px;
+                        display: grid;
                         grid-template-columns: repeat(4, 1fr);
                         justify-items: stretch;
                             &__element{
@@ -57,6 +57,14 @@
                                                 background-color: #449911; //! Color must change depends on iaq index
                                             }
                                     }
+                            }
+                    }
+                    &__charts{
+                        display: grid;
+                       // grid-template-columns: repeat(1, 0%);
+                            .chartjs-size-monitor, .chartjs-render-monitor{
+                                width: 100% !important;
+                                
                             }
                     }
                 }

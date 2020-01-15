@@ -3,7 +3,6 @@ import { Line } from 'react-chartjs-2';
 
 
 const Chart = (props) => {
-    
     const getHoursArray = () => {
         const date = new Date()
         const currentHour = date.getHours()
@@ -24,11 +23,13 @@ const Chart = (props) => {
         return newArray.reverse()
     }   
 
+    //! Data for chart
+    const hourlyTemp = props.dataPoint.slice(0, 14)
     const data = {
         labels: getHoursArray(),
         datasets: [
             {
-                label: 'Temperatura powietrza',
+                label: props.dataType,
                 fill: true,
                 lineTension: .4,
                 backgroundColor: 'rgba(75,192,192,0.4)',
@@ -42,7 +43,7 @@ const Chart = (props) => {
                 pointHoverBorderWidth: 5,
                 pointRadius: 2,
                 pointHitRadius: 10,
-                data: [12, 13, 22, 28, 20, 15, 10, 7, 5, 8, 10, 3, -0.5, 10, 3, -0.5]
+                data: hourlyTemp.reverse()
             }
         ]
     };
