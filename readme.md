@@ -22,7 +22,7 @@ $ npm start
 
 ### Garść wiedzy
 
-- Grid -> https://learncssgrid.com/    <<<<<<<<<<<<<
+- Grid -> https://learncssgrid.com/ 
 - Flex -> https://flexboxfroggy.com/#pl
 - Flex -> https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 - SASS (scss) -> https://bedekodzic.pl/sass-p1/
