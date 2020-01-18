@@ -6,7 +6,6 @@
 
 Żeby wyszysko działało jak należy musicie zainstalować: 
 - Node.js -> https://nodejs.org/en/   
-do tego polecam przeczytać 
 
 ```sh
 $ npm install
