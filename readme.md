@@ -9,8 +9,8 @@
 
 ```sh
 (przechodzicie do folderu z plikami projektu)
-$ npm install
-$ npm start
+# npm install
+# npm start
 ```
 
 ### Instalacja gita
